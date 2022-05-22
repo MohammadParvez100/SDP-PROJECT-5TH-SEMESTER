@@ -1,9 +1,12 @@
 import React from 'react';
-const Body = () => {
-    return(
-           <div>
+import Menu from './Menu';
 
-           </div>
+const Body = () => {
+    return (
+        <div>
+            <Menu />
+        </div>
     );
 }
+
 export default Body;
